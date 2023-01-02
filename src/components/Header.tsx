@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import '../../res/css/header.scss'
+import cq9 from '../../res/img/logo/cq9.png'
 
 const Header = () => {
     return (
         <nav className="munu">
             <ul className="munu--munuBox">
-                <img src='../../res/img/logo/cq9.png' />
+                <img src={cq9} />
                 <li>jj
                     <ul>
                         <li>

@@ -1,5 +1,6 @@
 import '../../res/css/login.scss'
 import { Link } from "react-router-dom";
+import login_logo from '../../res/img/logo/login_logo.png'
 
 
 const Login = () => {
@@ -7,7 +8,7 @@ const Login = () => {
         <div className='bodyBG'>
             <div className='showInfoBox'>
                 <div className='imgBox'>
-                    <img src='../../res/img/logo/login_logo.png' />
+                    <img src={login_logo} />
                 </div>
 
 
