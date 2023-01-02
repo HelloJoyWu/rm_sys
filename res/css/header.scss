@@ -1,0 +1,11 @@
+.munu {
+    width: 100vw;
+    // background-color: transparent;
+    background-color: #000000;
+
+    &--munuBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

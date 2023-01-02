@@ -4,8 +4,7 @@ import '../../../res/css/slotAlert.scss'
 
 const SlotAlert = () => {
     // const [count, setCount] = useState(0)
-
-
+    console.log(window.location.hash);
 
     return (
         <div className='bodyBox'>

@@ -4,5 +4,74 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-
 }
+
+.showInfoBox {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgBox {
+    margin-bottom: 50px;
+}
+
+.textInputBox {
+    width: 100%;
+    background-color: #ffffff00;
+    border: 1px solid #FFC30B;
+    border-radius: 21px;
+    padding: 10px;
+    width: 27%;
+    text-align: center;
+    margin: 25px 0px;
+    font: normal normal bold 20px/27px Microsoft JhengHei;
+    color: #F6871D;
+
+    &:focus {
+        border-color: #ffffff;
+        outline: none;
+    }
+
+    &::placeholder {
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+}
+
+.loginBtn {
+    background: transparent linear-gradient(66deg, #000000 50%, #f6861d3a 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 9px #FFA34B66;
+    border: 1px solid #F6871D;
+    border-radius: 15px;
+    width: 175px;
+    height: 55px;
+    margin: 30px 0px;
+
+    &:active {
+        border: 1px solid #F6871D;
+        opacity: 0.5;
+        outline: none;
+    }
+
+    &:hover {
+        border: 1px solid #F6871D;
+    }
+
+    &--showText {
+        font: normal normal bold 18px/24px Microsoft JhengHei;
+        letter-spacing: 0px;
+        color: #F6871D;
+
+        &:hover {
+            color: #F6871D;
+        }
+    }
+}
+
+// input[type=text]:focus {
+//     border: 3px solid rgb(255, 0, 0);
+// }
